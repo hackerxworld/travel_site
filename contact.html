@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="contactStyle.css" />
+  <link rel="stylesheet" href="media.css" />
+  <link rel="icon" href="icons/titleLogo3.png" />
+  <title>Contact Naqashbandi travels</title>
+</head>
+
+<body>
+  <button id="btnScrollToTop">
+    <i class="material-icons">arrow_upward</i>
+  </button>
+  <header>
+    <nav>
+      <h4><a href="index.html">Naqashbandi travels</a></h4>
+      <ul id="menu_bx">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <i class="bi bi-three-dots"></i>
+    </nav>
+
+    <!-- Conatct Section -->
+
+    <div class="contact">
+      <form action="https://formsubmit.co/smarttouseef6@gmail.com" method="POST" target="_blank">
+        <div>
+          <label for="firstname">Name<i class="bi bi-asterisk"></i></label>
+          <input type="text" name="Name" placeholder="Enter Your Name" required />
+        </div>
+        <div>
+          <label for="phone">Phone Number<i class="bi bi-asterisk"></i></label>
+          <input type="number" name="Phone" placeholder="Enter Your Phone Number" required maxlength="10" />
+        </div>
+        <div>
+          <label for="email">Email Id<i class="bi bi-asterisk"></i></label>
+          <input type="email" name="Email" placeholder="Enter Your Email Id" required />
+        </div>
+        <div>
+          <label for="date">Arriving Date<i class="bi bi-asterisk"></i></label>
+          <input type="date" name="Arriving Date" required />
+        </div>
+        <div>
+          <label for="date">Departure Date<i class="bi bi-asterisk"></i></label>
+          <input type="date" name="Departure Date" required />
+        </div>
+        <div>
+          <label for="totalNumber">No. of Persons<i class="bi bi-asterisk"></i></label>
+          <input type="number" name="Total No. of Persons Travelling" placeholder="Total No. of Persons Travelling"
+            required />
+        </div>
+        <div>
+          <label for="address">Address<i class="bi bi-asterisk"></i></label>
+          <textarea name="Address" id="address" placeholder="Enter Your Address" required></textarea>
+        </div>
+        <span>
+          <label for="hotel">Hotels<i class="bi bi-asterisk"></i></label>
+          <select name="Hotel Type" id="hotel" required>
+            <option value="choose">Choose Your Hotel</option>
+            <option value="2-Star">2-Star</option>
+            <option value="3-Star">3-Star</option>
+            <option value="4-Star">4-Star</option>
+            <option value="5-Star">5-Star</option>
+          </select>
+        </span>
+        <div>
+          <label for="query">Ask Query</label>
+          <textarea name="Query" id="query" placeholder="Ask Query (If any)"></textarea>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+  </header>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer_bx">
+      <span>
+        <h2>Quick Links</h2>
+        <p>
+          <i class="bi bi-chevron-right"></i><a href="t&c.html"> Terms and Conditions</a>
+        </p>
+        <p>
+          <i class="bi bi-chevron-right"></i><a href="cancelPol.html"> Cancellation Policy</a>
+        </p>
+        <p>
+          <i class="bi bi-chevron-right"></i><a href="privacyPol.html"> Privacy Policy</a>
+        </p>
+        <p>
+          <i class="bi bi-chevron-right"></i><a href="disclPol.html"> Disclaimer Policy</a>
+        </p>
+      </span>
+      <span>
+        <h2>Contact Info</h2>
+        <p>
+          <i class="bi bi-telephone-fill"></i><a href="tel: 6006480457">+91 6006480457</a>
+        </p>
+        <p>
+          <i class="bi bi-telephone-fill"></i><a href="tel: 7006603367">+91 7006603367</a>
+        </p>
+        <p>
+          <i class="bi bi-envelope-fill"></i><a href="mailto:waniamir149@gmail.com" target="_blank">
+            waniamir149@gmail.com</a>
+        </p>
+        <p>
+          <i class="bi bi-whatsapp"></i><a href="https://wa.me/916006480457" target="_blank">
+            6006480457</a>
+        </p>
+      </span>
+      <span>
+        <h2>Social Media</h2>
+        <p><i class="bi bi-facebook"></i><a href=""> Facebook</a></p>
+        <p><i class="bi bi-instagram"></i><a href=""> Instagram</a></p>
+        <p><i class="bi bi-twitter"></i><a href=""> Twitter</a></p>
+        <p><i class="bi bi-linkedin"></i><a href=""> LinkedIn</a></p>
+      </span>
+      <span>
+        <h2>Address</h2>
+        <p>
+          <i class="bi bi-house-fill"></i><a href="#"> Ganderbal Kashmir-191201</a>
+        </p>
+        <p><i class="bi bi-signpost"></i><a href="#"> Near Markazi Jamia masjid Beehama </a></p>
+        <p>
+          <i class="bi bi-arrow-left-right"></i><a href="#"> Opposite .....</a>
+        </p>
+        <p>
+          <i class="bi bi-geo-alt-fill"></i><a href="#"> Connect on Map</a>
+        </p>
+      </span>
+    </div>
+    <hr class="hr" />
+    <div class="footer_btm">
+      <p>
+        Created By
+        <b><a href="https://wa.me//919797876579" target="_blank">Tauseef Rashid</a></b>
+        | All Rights Reserved!
+      </p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
